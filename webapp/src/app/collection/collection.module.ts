@@ -8,6 +8,7 @@ import { CollectionListItemComponent } from './collection-list-item/collection-l
   imports: [
     CommonModule
   ],
-  declarations: [CollectionComponent, CollectionListComponent, CollectionListItemComponent]
+  declarations: [CollectionComponent, CollectionListComponent, CollectionListItemComponent],
+  exports: [CollectionComponent]
 })
 export class CollectionModule { }
