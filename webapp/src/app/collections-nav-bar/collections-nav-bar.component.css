@@ -1,0 +1,21 @@
+.collections-nav-bar-container {
+	text-align: center;
+	margin: 50px auto;
+	box-sizing: border-box;
+	height: 172px;
+	list-style-type: none;
+}
+.collections-nav-bar-container div {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0px -2px;
+	width: 340px;
+}
+
+.collections-nav-bar-button {
+	float: left;
+	box-sizing: border-box;
+	width: 150px;
+	margin: 10px 10px;
+	padding: 66px 0px;
+}
