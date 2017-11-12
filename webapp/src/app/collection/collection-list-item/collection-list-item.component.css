@@ -1,0 +1,36 @@
+li.collection-list-item {
+	padding: 10px 10px;
+	margin: 20px 0px;
+	cursor: pointer;
+}
+
+.item-resume {
+    float: right;
+    box-sizing: border-box;    
+    width: 70%;
+    background-color: transparent;
+}
+
+.item-resume * {
+    display: block;
+    background-color: transparent;    
+    margin-bottom: 2px;
+}
+
+.item-resume .title {
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.item-resume .author {
+    font-weight: 500;
+}
+
+.item-resume .year {
+    font-size: small;
+}
+
+li.collection-list-item img {
+	width: 25%;
+}

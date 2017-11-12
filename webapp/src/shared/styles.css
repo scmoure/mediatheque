@@ -1,16 +1,17 @@
-body {
+* {
+	font-family: arial;
+	text-decoration: none;
 	background-color: #161b1d;
+	color: #4d5d66;
 }
 
 .button {
 	cursor: pointer;
 	background-color: #161b1d;
 	box-shadow: 0px 6px 10px 3px black;
-	color: #4d5d66;
-    font-family: arial;
-    text-align: center;
     text-decoration: none;
 }
+
 .button:hover {
 	background-color: #21282c;
 	color: #0b0d0f;
